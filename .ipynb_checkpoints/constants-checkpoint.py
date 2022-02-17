@@ -5,6 +5,14 @@ URL_CAT_BY_SITE = "https://api.mercadolibre.com/sites/{site}/categories/all"
 
 URL_ITEMS_DISC = "https://api.mercadolibre.com/sites/{site}/search?category={category}&offset={offset}&sort=relevance&discount=5-100"
 
+URL_SITE_CAT_OFFSET_DISC = """
+https://api.mercadolibre.com/sites/{site}/search?category={category}&offset={offset}&sort=relevance&limit=50&discount=5-100
+"""
+
+URL_SITE_CAT_OFFSET = """
+https://api.mercadolibre.com/sites/{site}/search?category={category}&offset={offset}&sort=relevance
+"""
+
 # SECTION KEYS
 
 KEYS_DIRECT_VALUES = [

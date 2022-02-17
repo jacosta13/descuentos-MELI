@@ -10,7 +10,7 @@ https://api.mercadolibre.com/sites/{site}/search?category={category}&offset={off
 """
 
 URL_SITE_CAT_OFFSET = """
-https://api.mercadolibre.com/sites/{site}/search?category={category}&offset={offset}&sort=relevance&limit=50
+https://api.mercadolibre.com/sites/{site}/search?category={category}&offset={offset}&sort=relevance
 """
 
 # SECTION KEYS
